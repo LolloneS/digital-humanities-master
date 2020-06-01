@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Dice al browser che tipo di documento è quello corrente -->
+<head>
+    <title> Master in Digital Humanities </title>
+    <meta charset="utf-8" /> <!-- Lettere accentate ok -->
+    <meta name="author" content="Lorenzo Soligo">
+    <meta name="description" content="Esempi di HTML, CSS, JavaScript">
+    <meta name="language" content="English">
+    <meta http-equiv="reply-to" content="875566@stud.unive.it">
+    <meta http-equiv="keywords" content="html css javascript js digital humanities">
+</head>
+
+<script>
+function insert_text() {
+    var user_input = prompt("Please tell me something")
+    var bd = document.getElementById('mydiv');
+    bd.innerHTML = user_input;
+}
+</script>
+
+
+<body onload="insert_text()">
+    <h1> Master in Digital Humanities </h1>
+    <div id="mydiv"> Insert something in the prompt </div>
+</body>

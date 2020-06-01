@@ -1,0 +1,8 @@
+Si vuole rappresentare la realtà di un museo di arte moderna.
+
+Un museo è composto da opere di differenti categorie: sculture, dipinti ed esibizioni (performance).
+
+Ogni opera è fatta da un artista, in un certo anno, ed ha caratteristiche proprie dipendenti dal tipo stesso di opera (e.g. dipinto=dimensioni, film=durata, ...).
+
+Una performance è fatta da degli attori.
+

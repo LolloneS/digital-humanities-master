@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Dice al browser che tipo di documento è quello corrente -->
+<head>
+    <title> Master in Digital Humanities </title>
+    <meta charset="utf-8" /> <!-- Lettere accentate ok -->
+    <meta name="author" content="Lorenzo Soligo">
+    <meta name="description" content="Esempi di HTML, CSS, JavaScript">
+    <meta name="language" content="English">
+    <meta http-equiv="reply-to" content="875566@stud.unive.it">
+    <meta http-equiv="keywords" content="html css javascript js digital humanities">
+</head>
+
+<script>
+function change_text() {
+    var elem = document.getElementById('mydiv');
+    elem.innerHTML = "Changed!";
+    var bd = document.getElementById('button_div');
+    bd.innerHTML = '';
+}
+</script>
+
+
+<body>
+    <h1> Master in Digital Humanities </h1>
+    <div id="mydiv"> This text will change when you click on the button</div>
+    <span> Also, the button will disappear </span> 
+    <div id="button_div"> <button onclick="change_text()"> Click me! </button> </div>
+    
+</body>

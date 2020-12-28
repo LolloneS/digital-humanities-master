@@ -1,2 +1,2 @@
-# Lessons for the Digital Humanities Master
-Material used during the lessons of the Master in Digital Humanities (Ca' Foscari University of Venice)
+# Lessons for the Master's Degree in Digital Humanities 
+Material used during the lessons of the Master's Degree in Digital Humanities at the Ca' Foscari University of Venice
